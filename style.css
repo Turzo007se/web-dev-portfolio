@@ -135,8 +135,9 @@ ul li a {
 
 /* What I Do */
 .what-i-do-parent {
-    margin: 60px auto;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top:50px;
 }
 
 .what-i-do-card-container {
@@ -166,6 +167,7 @@ ul li a {
 .resume-root {
     text-align: center;
     margin-bottom: 50px;
+    margin-top:50px;
 }
 
 .resume-container {
@@ -181,4 +183,41 @@ ul li a {
 .resume-button {
     text-align: center;
     margin-top: 40px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.resume-left-parent > h2, .resume-right-parent > h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.resume-left h2, .resume-right h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-left h3, .resume-right h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-left p, .resume-right p {
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.resume-left, .resume-right {
+    margin-bottom: 40px;
+}
+
+hr {
+    margin-top: 30px;
+    border: none;
+    border-top: 1px solid #d1d1d1;
 }
